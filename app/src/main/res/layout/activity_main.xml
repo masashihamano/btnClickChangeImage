@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    tools:context="practice.pre.misao_btnclickchangeimage.MainActivity">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/ivLion"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/lion" />
+
+    <Button
+        android:id="@+id/btnChange"
+        android:text="Change Image"
+        android:textSize="24dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:background="@color/colorPurple"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivLion"
+        android:layout_marginTop="50dp"
+        android:onClick="changeImage"/>
+
+
+</RelativeLayout>
